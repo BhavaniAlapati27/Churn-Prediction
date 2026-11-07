@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# Duplicate source archive
+additional_original_files/
+
+# MLflow
+mlruns/
+*.db
+
+# Model files
+*.pkl
+
+# Generated data
+data/processed/
+data/monitoring/
+data/raw/archive/
+
+# Keep only the main raw dataset
+data/raw/*.csv
+!data/raw/churn.csv
+
+# Generated files
+logs/
+outputs/
+artifacts/
+
+# Other
+.vscode/
